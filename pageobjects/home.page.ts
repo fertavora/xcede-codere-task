@@ -25,7 +25,7 @@ export class HomePage extends BasePage {
    */
   async load(): Promise<void | Response> {
     try{ 
-      await this.page.goto('/');
+      await this.page.goto('/', { timeout: 60000 });
     } catch(error) {
       if (error instanceof Error) {
         throw Error(`An error occurred going to homepage: ${error.message}`);
