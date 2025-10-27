@@ -1,0 +1,14 @@
+{
+  "name": "xcede-codere-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn playwright test"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
