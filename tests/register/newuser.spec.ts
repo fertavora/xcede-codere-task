@@ -10,7 +10,7 @@ import { test, expect } from '../../fixtures/homePage.fixture';
 import { RegisterData } from '../../types/RegisterData';
 
 test.describe('Sign up - Success', async () => {
-  test.skip('User signs up successfully', async ({ homePage }) => {
+  test('User signs up successfully', async ({ homePage }) => {
     const newUserData: RegisterData = {
       firstName: 'John',
       firstSurname: 'Doe',
